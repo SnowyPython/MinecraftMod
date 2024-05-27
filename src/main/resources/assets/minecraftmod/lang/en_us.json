@@ -10,5 +10,28 @@
   "item.minecraftmod.silver_ingot": "Silver Ingot",
   "item.minecraftmod.raw_silver": "Raw Silver",
   "item.minecraftmod.titanium_ingot": "Titanium Ingot",
-  "item.minecraftmod.raw_titanium": "Raw Titanium"
+  "item.minecraftmod.raw_titanium": "Raw Titanium",
+
+  "block.minecraftmod.tin_block": "Tin Block",
+  "block.minecraftmod.aluminum_block": "Aluminum Block",
+  "block.minecraftmod.lead_block": "Lead Block",
+  "block.minecraftmod.platinum_block": "Platinum Block",
+  "block.minecraftmod.silver_block": "Silver Block",
+  "block.minecraftmod.titanium_block": "Titanium Block",
+
+  "block.minecraftmod.tin_ore": "Tin Ore",
+  "block.minecraftmod.aluminum_ore": "Aluminum Ore",
+  "block.minecraftmod.lead_ore": "Lead Ore",
+  "block.minecraftmod.platinum_ore": "Platinum Ore",
+  "block.minecraftmod.silver_ore": "Silver Ore",
+  "block.minecraftmod.titanium_ore": "Titanium Ore",
+  "block.minecraftmod.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.minecraftmod.deepslate_aluminum_ore": "Deepslate Aluminum Ore",
+  "block.minecraftmod.deepslate_lead_ore": "Deepslate Lead Ore",
+  "block.minecraftmod.deepslate_platinum_ore": "Deepslate Platinum Ore",
+  "block.minecraftmod.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.minecraftmod.deepslate_titanium_ore": "Deepslate Titanium Ore",
+
+  "itemGroup.resourcestab": "Advanced Resources",
+  "itemGroup.orestab": "Advanced Ores"
 }
