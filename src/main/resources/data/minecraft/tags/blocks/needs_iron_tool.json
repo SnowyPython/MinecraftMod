@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraftmod:platinum_ore",
+    "minecraftmod:deepslate_platinum_ore",
+    "minecraftmod:silver_ore",
+    "minecraftmod:deepslate_silver_ore",
+    "minecraftmod:titanium_ore",
+    "minecraftmod:deepslate_titanium_ore",
+
+    "minecraftmod:platinum_block",
+    "minecraftmod:silver_block",
+    "minecraftmod:titanium_block"
+  ]
+}

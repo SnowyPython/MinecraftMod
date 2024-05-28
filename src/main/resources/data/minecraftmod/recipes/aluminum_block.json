@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "key": {
+    "#": {
+      "item": "minecraftmod:aluminum_ingot"
+    }
+  },
+
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result": {
+    "item": "minecraftmod:aluminum_block"
+  }
+}

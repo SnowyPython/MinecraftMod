@@ -1,5 +1,6 @@
 package net.snowypython.minecraftmod.item;
 
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -28,16 +29,24 @@ public class ModItems {
     //raw_resources
     public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.RESOURCES_TAB)));
-    public static final RegistryObject<Item> RAW_ALUMINUM= ITEMS.register("raw_aluminum",
+    public static final RegistryObject<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.RESOURCES_TAB)));
-    public static final RegistryObject<Item> RAW_LEAD= ITEMS.register("raw_lead",
+    public static final RegistryObject<Item> RAW_LEAD = ITEMS.register("raw_lead",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.RESOURCES_TAB)));
-    public static final RegistryObject<Item> RAW_PLATINUM= ITEMS.register("raw_platinum",
+    public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.RESOURCES_TAB)));
-    public static final RegistryObject<Item> RAW_SILVER= ITEMS.register("raw_silver",
+    public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.RESOURCES_TAB)));
-    public static final RegistryObject<Item> RAW_TITANIUM= ITEMS.register("raw_titanium",
+    public static final RegistryObject<Item> RAW_TITANIUM = ITEMS.register("raw_titanium",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.RESOURCES_TAB)));
+
+    //food
+    public static final RegistryObject<Item> BANANA = ITEMS.register("banana",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(1.2f).build())
+                    .tab(ModCreativeModeTab.FOOD_TAB)));
+    public static final RegistryObject<Item> ORANGE = ITEMS.register("orange",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(1.2f).build())
+                    .tab(ModCreativeModeTab.FOOD_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

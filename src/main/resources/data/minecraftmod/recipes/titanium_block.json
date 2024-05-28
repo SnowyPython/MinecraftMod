@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "key": {
+    "#": {
+      "item": "minecraftmod:titanium_ingot"
+    }
+  },
+
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result": {
+    "item": "minecraftmod:titanium_block"
+  }
+}

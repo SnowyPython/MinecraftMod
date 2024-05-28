@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraftmod:tin_ore",
+    "minecraftmod:deepslate_tin_ore",
+    "minecraftmod:aluminum_ore",
+    "minecraftmod:deepslate_aluminum_ore",
+    "minecraftmod:lead_ore",
+    "minecraftmod:deepslate_lead_ore",
+
+    "minecraftmod:tin_block",
+    "minecraftmod:aluminum_block",
+    "minecraftmod:lead_block"
+  ]
+}

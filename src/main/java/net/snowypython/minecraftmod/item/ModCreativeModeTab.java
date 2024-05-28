@@ -18,4 +18,11 @@ public class ModCreativeModeTab {
             return new ItemStack(ModBlocks.TIN_ORE.get());
         }
     };
+
+    public static final CreativeModeTab FOOD_TAB = new CreativeModeTab("foodtab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.BANANA.get());
+        }
+    };
 }

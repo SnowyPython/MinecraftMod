@@ -12,6 +12,9 @@
   "item.minecraftmod.titanium_ingot": "Titanium Ingot",
   "item.minecraftmod.raw_titanium": "Raw Titanium",
 
+  "item.minecraftmod.banana": "Banana",
+  "item.minecraftmod.orange": "Orange",
+
   "block.minecraftmod.tin_block": "Tin Block",
   "block.minecraftmod.aluminum_block": "Aluminum Block",
   "block.minecraftmod.lead_block": "Lead Block",
@@ -33,5 +36,6 @@
   "block.minecraftmod.deepslate_titanium_ore": "Deepslate Titanium Ore",
 
   "itemGroup.resourcestab": "Advanced Resources",
-  "itemGroup.orestab": "Advanced Ores"
+  "itemGroup.orestab": "Advanced Ores",
+  "itemGroup.foodtab": "Advanced Food"
 }
