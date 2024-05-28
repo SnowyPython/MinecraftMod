@@ -22,7 +22,14 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab FOOD_TAB = new CreativeModeTab("foodtab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.BANANA.get());
+            return new ItemStack(ModItems.ORANGE.get());
+        }
+    };
+
+    public static final CreativeModeTab TOOLS_TAB = new CreativeModeTab("toolstab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.PLATINUM_PICKAXE.get());
         }
     };
 }

@@ -15,6 +15,11 @@
   "item.minecraftmod.banana": "Banana",
   "item.minecraftmod.orange": "Orange",
 
+  "item.minecraftmod.platinum_pickaxe": "Platinum Pickaxe",
+  "item.minecraftmod.platinum_axe": "Platinum Axe",
+  "item.minecraftmod.platinum_shovel": "Platinum Shovel",
+  "item.minecraftmod.platinum_hoe": "Platinum Hoe",
+
   "block.minecraftmod.tin_block": "Tin Block",
   "block.minecraftmod.aluminum_block": "Aluminum Block",
   "block.minecraftmod.lead_block": "Lead Block",
@@ -37,5 +42,6 @@
 
   "itemGroup.resourcestab": "Advanced Resources",
   "itemGroup.orestab": "Advanced Ores",
-  "itemGroup.foodtab": "Advanced Food"
+  "itemGroup.foodtab": "Advanced Food",
+  "itemGroup.toolstab": "Advanced Tools"
 }
