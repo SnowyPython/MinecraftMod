@@ -14,11 +14,16 @@
 
   "item.minecraftmod.banana": "Banana",
   "item.minecraftmod.orange": "Orange",
+  "item.minecraftmod.corn": "Corn",
+
+  "item.minecraftmod.corn_seeds": "Corn Seeds",
 
   "item.minecraftmod.platinum_pickaxe": "Platinum Pickaxe",
   "item.minecraftmod.platinum_axe": "Platinum Axe",
   "item.minecraftmod.platinum_shovel": "Platinum Shovel",
   "item.minecraftmod.platinum_hoe": "Platinum Hoe",
+
+  "block.minecraftmod.corn_crop": "Corn Crop",
 
   "block.minecraftmod.tin_block": "Tin Block",
   "block.minecraftmod.aluminum_block": "Aluminum Block",

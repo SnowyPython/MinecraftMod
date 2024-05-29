@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.snowypython.minecraftmod.MinecraftMod;
+import net.snowypython.minecraftmod.block.ModBlocks;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -47,6 +48,9 @@ public class ModItems {
     public static final RegistryObject<Item> ORANGE = ITEMS.register("orange",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(1.2f).build())
                     .tab(ModCreativeModeTab.FOOD_TAB)));
+    public static final RegistryObject<Item> CORN = ITEMS.register("corn",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(1.2f).build())
+                    .tab(ModCreativeModeTab.FOOD_TAB)));
 
     //tools
     public static final RegistryObject<Item> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe",
@@ -57,6 +61,10 @@ public class ModItems {
             () -> new ShovelItem(Tiers.DIAMOND, 1.5f, -3f, new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
     public static final RegistryObject<Item> PLATINUM_HOE = ITEMS.register("platinum_hoe",
             () -> new HoeItem(Tiers.DIAMOND, -3, 0f, new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
+
+    //seeds
+    public static final RegistryObject<Item> CORN_SEEDS = ITEMS.register("corn_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.CORN_CROP.get(), new Item.Properties().tab(ModCreativeModeTab.FOOD_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
