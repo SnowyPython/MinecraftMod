@@ -1,5 +1,6 @@
 package net.snowypython.minecraftmod.item;
 
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -8,6 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.snowypython.minecraftmod.MinecraftMod;
 import net.snowypython.minecraftmod.block.ModBlocks;
+import net.snowypython.minecraftmod.item.custom.PlatinumArmorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -62,9 +64,19 @@ public class ModItems {
     public static final RegistryObject<Item> PLATINUM_HOE = ITEMS.register("platinum_hoe",
             () -> new HoeItem(Tiers.DIAMOND, -3, 0f, new Item.Properties().tab(ModCreativeModeTab.TOOLS_TAB)));
 
+    //armor
+    public static final RegistryObject<Item> PLATINUM_HELMET = ITEMS.register("platinum_helmet",
+            () -> new PlatinumArmorItem(ArmorMaterials.DIAMOND, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.COMBAT_TAB)));
+    public static final RegistryObject<Item> PLATINUM_CHESTPLATE = ITEMS.register("platinum_chestplate",
+            () -> new PlatinumArmorItem(ArmorMaterials.DIAMOND, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.COMBAT_TAB)));
+    public static final RegistryObject<Item> PLATINUM_LEGGINGS = ITEMS.register("platinum_leggings",
+            () -> new PlatinumArmorItem(ArmorMaterials.DIAMOND, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.COMBAT_TAB)));
+    public static final RegistryObject<Item> PLATINUM_BOOTS = ITEMS.register("platinum_boots",
+            () -> new PlatinumArmorItem(ArmorMaterials.DIAMOND, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.COMBAT_TAB)));
+
     //seeds
     public static final RegistryObject<Item> CORN_SEEDS = ITEMS.register("corn_seeds",
-            () -> new ItemNameBlockItem(ModBlocks.CORN_CROP.get(), new Item.Properties().tab(ModCreativeModeTab.FOOD_TAB)));
+            () -> new ItemNameBlockItem(ModBlocks.CORN_CROP.get(), new Item.Properties().tab(ModCreativeModeTab.NATURE_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

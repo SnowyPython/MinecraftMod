@@ -32,4 +32,18 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.PLATINUM_PICKAXE.get());
         }
     };
+
+    public static final CreativeModeTab COMBAT_TAB = new CreativeModeTab("combattab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.PLATINUM_CHESTPLATE.get());
+        }
+    };
+
+    public static final CreativeModeTab NATURE_TAB = new CreativeModeTab("naturetab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.CORN_SEEDS.get());
+        }
+    };
 }

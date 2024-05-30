@@ -22,6 +22,10 @@
   "item.minecraftmod.platinum_axe": "Platinum Axe",
   "item.minecraftmod.platinum_shovel": "Platinum Shovel",
   "item.minecraftmod.platinum_hoe": "Platinum Hoe",
+  "item.minecraftmod.platinum_helmet": "Platinum Helmet",
+  "item.minecraftmod.platinum_chestplate": "Platinum Chestplate",
+  "item.minecraftmod.platinum_leggings": "Platinum Leggings",
+  "item.minecraftmod.platinum_boots": "Platinum Boots",
 
   "block.minecraftmod.corn_crop": "Corn Crop",
 
@@ -48,5 +52,7 @@
   "itemGroup.resourcestab": "Advanced Resources",
   "itemGroup.orestab": "Advanced Ores",
   "itemGroup.foodtab": "Advanced Food",
-  "itemGroup.toolstab": "Advanced Tools"
+  "itemGroup.toolstab": "Advanced Tools",
+  "itemGroup.naturetab": "Advanced Nature",
+  "itemGroup.combattab": "Advanced Combat"
 }
