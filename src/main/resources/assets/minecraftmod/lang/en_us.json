@@ -35,6 +35,7 @@
   "block.minecraftmod.platinum_block": "Platinum Block",
   "block.minecraftmod.silver_block": "Silver Block",
   "block.minecraftmod.titanium_block": "Titanium Block",
+  "block.minecraftmod.speedy_block": "Speedy Block",
 
   "block.minecraftmod.tin_ore": "Tin Ore",
   "block.minecraftmod.aluminum_ore": "Aluminum Ore",
@@ -50,8 +51,7 @@
   "block.minecraftmod.deepslate_titanium_ore": "Deepslate Titanium Ore",
 
   "itemGroup.resourcestab": "Advanced Resources",
-  "itemGroup.orestab": "Advanced Ores",
-  "itemGroup.foodtab": "Advanced Food",
+  "itemGroup.blockstab": "Advanced Blocks",
   "itemGroup.toolstab": "Advanced Tools",
   "itemGroup.naturetab": "Advanced Nature",
   "itemGroup.combattab": "Advanced Combat"

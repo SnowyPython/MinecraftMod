@@ -46,13 +46,13 @@ public class ModItems {
     //food
     public static final RegistryObject<Item> BANANA = ITEMS.register("banana",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(1.2f).build())
-                    .tab(ModCreativeModeTab.FOOD_TAB)));
+                    .tab(ModCreativeModeTab.NATURE_TAB)));
     public static final RegistryObject<Item> ORANGE = ITEMS.register("orange",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(1.2f).build())
-                    .tab(ModCreativeModeTab.FOOD_TAB)));
+                    .tab(ModCreativeModeTab.NATURE_TAB)));
     public static final RegistryObject<Item> CORN = ITEMS.register("corn",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(1.2f).build())
-                    .tab(ModCreativeModeTab.FOOD_TAB)));
+                    .tab(ModCreativeModeTab.NATURE_TAB)));
 
     //tools
     public static final RegistryObject<Item> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe",

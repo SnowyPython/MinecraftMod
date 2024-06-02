@@ -10,6 +10,7 @@
 
     "minecraftmod:tin_block",
     "minecraftmod:aluminum_block",
-    "minecraftmod:lead_block"
+    "minecraftmod:lead_block",
+    "minecraftmod:speedy_block"
   ]
 }

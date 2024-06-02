@@ -12,14 +12,14 @@ public class ModCreativeModeTab {
         }
     };
 
-    public static final CreativeModeTab ORES_TAB = new CreativeModeTab("orestab") {
+    public static final CreativeModeTab BLOCKS_TAB = new CreativeModeTab("blockstab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.TIN_ORE.get());
+            return new ItemStack(ModBlocks.SPEEDY_BLOCK.get());
         }
     };
 
-    public static final CreativeModeTab FOOD_TAB = new CreativeModeTab("foodtab") {
+    public static final CreativeModeTab NATURE_TAB = new CreativeModeTab("naturetab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.ORANGE.get());
@@ -37,13 +37,6 @@ public class ModCreativeModeTab {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.PLATINUM_CHESTPLATE.get());
-        }
-    };
-
-    public static final CreativeModeTab NATURE_TAB = new CreativeModeTab("naturetab") {
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(ModItems.CORN_SEEDS.get());
         }
     };
 }

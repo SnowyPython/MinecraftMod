@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "key": {
+    "#": {
+      "item": "minecraftmod:platinum_ingot"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "pattern": [
+    " # ",
+    " X ",
+    " X "
+  ],
+
+  "result": {
+    "item": "minecraftmod:platinum_shovel"
+  }
+}

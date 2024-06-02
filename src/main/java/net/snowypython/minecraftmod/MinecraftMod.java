@@ -14,6 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.snowypython.minecraftmod.block.ModBlocks;
 import net.snowypython.minecraftmod.item.ModItems;
+import net.snowypython.minecraftmod.villager.ModVillagers;
 import org.slf4j.Logger;
 
 @Mod(MinecraftMod.MOD_ID)
@@ -29,6 +30,7 @@ public class MinecraftMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -37,9 +39,9 @@ public class MinecraftMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-        LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
+        event.enqueueWork(() -> {
+            ModVillagers.registerPOIs();
+        });
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

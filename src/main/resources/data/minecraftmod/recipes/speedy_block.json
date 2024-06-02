@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "key": {
+    "#": {
+      "item": "minecraftmod:tin_ingot"
+    },
+    "X": {
+      "item": "minecraft:stone_bricks"
+    },
+    "O": {
+      "item": "minecraft:deepslate_bricks"
+    }
+  },
+
+  "pattern": [
+    "X#X",
+    "#O#",
+    "X#X"
+  ],
+
+  "result": {
+    "item": "minecraftmod:speedy_block"
+  }
+}

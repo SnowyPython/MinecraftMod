@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "key": {
+    "#": {
+      "item": "minecraftmod:platinum_ingot"
+    }
+  },
+
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+
+  "result": {
+    "item": "minecraftmod:platinum_boots"
+  }
+}

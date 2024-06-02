@@ -18,6 +18,7 @@
     "minecraftmod:lead_block",
     "minecraftmod:platinum_block",
     "minecraftmod:silver_block",
-    "minecraftmod:titanium_block"
+    "minecraftmod:titanium_block",
+    "minecraftmod:speedy_block"
   ]
 }
