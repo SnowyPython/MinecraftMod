@@ -50,6 +50,8 @@
   "block.minecraftmod.deepslate_silver_ore": "Deepslate Silver Ore",
   "block.minecraftmod.deepslate_titanium_ore": "Deepslate Titanium Ore",
 
+  "entity.minecraft.villager.minecraftmod.metallurgist": "Metallurgist",
+
   "itemGroup.resourcestab": "Advanced Resources",
   "itemGroup.blockstab": "Advanced Blocks",
   "itemGroup.toolstab": "Advanced Tools",
