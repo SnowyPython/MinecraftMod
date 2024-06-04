@@ -16,6 +16,8 @@ import net.snowypython.minecraftmod.block.ModBlocks;
 import net.snowypython.minecraftmod.item.ModItems;
 import net.snowypython.minecraftmod.painting.ModPaintings;
 import net.snowypython.minecraftmod.villager.ModVillagers;
+import net.snowypython.minecraftmod.world.feature.ModConfiguredFeatures;
+import net.snowypython.minecraftmod.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
 
 @Mod(MinecraftMod.MOD_ID)
@@ -33,6 +35,8 @@ public class MinecraftMod
         ModBlocks.register(modEventBus);
         ModVillagers.register(modEventBus);
         ModPaintings.register(modEventBus);
+        ModConfiguredFeatures.registry(modEventBus);
+        ModPlacedFeatures.registry(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
