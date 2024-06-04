@@ -14,6 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.snowypython.minecraftmod.block.ModBlocks;
 import net.snowypython.minecraftmod.item.ModItems;
+import net.snowypython.minecraftmod.painting.ModPaintings;
 import net.snowypython.minecraftmod.villager.ModVillagers;
 import org.slf4j.Logger;
 
@@ -31,6 +32,7 @@ public class MinecraftMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModVillagers.register(modEventBus);
+        ModPaintings.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
