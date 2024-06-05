@@ -48,17 +48,17 @@ public class ModConfiguredFeatures {
     ));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> TIN_ORE = CONFIGURED_FEATURES.register("tin_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(TIN_ORES.get(), 15)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(TIN_ORES.get(), 10)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> ALUMINUM_ORE = CONFIGURED_FEATURES.register("aluminum_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(ALUMINUM_ORES.get(), 15)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(ALUMINUM_ORES.get(), 10)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> LEAD_ORE = CONFIGURED_FEATURES.register("lead_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(LEAD_ORES.get(), 15)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(LEAD_ORES.get(), 8)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> SILVER_ORE = CONFIGURED_FEATURES.register("silver_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(SILVER_ORES.get(), 15)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(SILVER_ORES.get(), 8)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> PLATINUM_ORE = CONFIGURED_FEATURES.register("platinum_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(PLATINUM_ORES.get(), 15)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(PLATINUM_ORES.get(), 4)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> TITANIUM_ORE = CONFIGURED_FEATURES.register("titanium_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(TITANIUM_ORES.get(), 15)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(TITANIUM_ORES.get(), 4)));
 
     public static void registry(IEventBus eventBus) {
         CONFIGURED_FEATURES.register(eventBus);
