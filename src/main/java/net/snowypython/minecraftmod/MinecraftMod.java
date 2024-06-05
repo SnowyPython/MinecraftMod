@@ -57,8 +57,7 @@ public class MinecraftMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            //noinspection removal
-            ItemBlockRenderTypes.setRenderLayer(ModBlocks.CORN_CROP.get(), RenderType.cutout());
+
         }
     }
 }

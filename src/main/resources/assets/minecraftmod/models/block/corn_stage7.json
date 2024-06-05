@@ -2,5 +2,6 @@
   "parent": "minecraft:block/crop",
   "textures": {
     "crop": "minecraftmod:block/corn_stage7"
-  }
+  },
+  "render_type": "cutout"
 }
