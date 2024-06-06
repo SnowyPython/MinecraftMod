@@ -56,5 +56,8 @@
   "itemGroup.blockstab": "Advanced Blocks",
   "itemGroup.toolstab": "Advanced Tools",
   "itemGroup.naturetab": "Advanced Nature",
-  "itemGroup.combattab": "Advanced Combat"
+  "itemGroup.combattab": "Advanced Combat",
+
+  "key.category.minecraftmod.mod": "Advanced Mod",
+  "key.minecraftmod.drink_water": "Drink Water"
 }
