@@ -59,5 +59,8 @@
   "itemGroup.combattab": "Advanced Combat",
 
   "key.category.minecraftmod.mod": "Advanced Mod",
-  "key.minecraftmod.drink_water": "Drink Water"
+  "key.minecraftmod.drink_water": "Drink Water",
+
+  "message.minecraftmod.drink_water": "Drinking Water",
+  "message.minecraftmod.no_water": "no water nearby!"
 }

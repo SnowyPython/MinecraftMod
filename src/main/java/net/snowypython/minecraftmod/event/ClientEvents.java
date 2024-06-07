@@ -8,6 +8,9 @@ import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.snowypython.minecraftmod.MinecraftMod;
+import net.snowypython.minecraftmod.networking.ModMessages;
+import net.snowypython.minecraftmod.networking.packet.DrinkWaterC2SPacket;
+import net.snowypython.minecraftmod.networking.packet.FirstC2SPacket;
 import net.snowypython.minecraftmod.util.KeyBinding;
 
 public class ClientEvents {
@@ -16,7 +19,7 @@ public class ClientEvents {
         @SubscribeEvent
         public static void onKeyInput(InputEvent.Key event) {
             if(KeyBinding.DRINKING_KEY.consumeClick()) {
-                Minecraft.getInstance().player.sendSystemMessage(Component.literal("pressed a key!"));
+                ModMessages.sendToServer(new DrinkWaterC2SPacket());
             }
         }
     }

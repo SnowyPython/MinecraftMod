@@ -14,6 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.snowypython.minecraftmod.block.ModBlocks;
 import net.snowypython.minecraftmod.item.ModItems;
+import net.snowypython.minecraftmod.networking.ModMessages;
 import net.snowypython.minecraftmod.painting.ModPaintings;
 import net.snowypython.minecraftmod.villager.ModVillagers;
 import net.snowypython.minecraftmod.world.feature.ModConfiguredFeatures;
@@ -45,9 +46,9 @@ public class MinecraftMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        event.enqueueWork(() -> {
-            ModVillagers.registerPOIs();
-        });
+        event.enqueueWork(ModVillagers::registerPOIs);
+
+        ModMessages.register();
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
