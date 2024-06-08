@@ -9,6 +9,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.network.NetworkEvent;
+import net.snowypython.minecraftmod.thirst.PlayerThirstProvider;
 
 import java.util.function.Supplier;
 
@@ -38,6 +39,11 @@ public class DrinkWaterC2SPacket {
 
                 level.playSound(null, player.getOnPos(), SoundEvents.GENERIC_DRINK, SoundSource.PLAYERS,
                         0.5f, level.random.nextFloat() * 0.1f + 0.9f);
+
+                player.getCapability(PlayerThirstProvider.PLAYER_THIRST).ifPresent(thirst -> {
+                    thirst.addThirst(1);
+                    player.sendSystemMessage(Component.literal("Current thirst " + thirst.getThirst()).withStyle(ChatFormatting.AQUA));
+                });
 
             }
             else {
